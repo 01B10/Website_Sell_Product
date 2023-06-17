@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+}
+
+.shortText {
+  text-align: justify;
+  display: -webkit-box;
+  -webkit-line-clamp: 10;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.showText {
+  -webkit-line-clamp: 100;
+}
